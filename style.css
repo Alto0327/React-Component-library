@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 
 body {
@@ -118,4 +119,10 @@ button.button-danger {
 
 .box.filled {
     background-color: blue;
+}
+
+.badge-container{
+    width: 70wv;
+    display: flex;
+    gap: 12px;
 }
