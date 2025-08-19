@@ -16,6 +16,12 @@ function App() {
         <Badge  color='yellow'>
           <p>Badge</p>
         </Badge>
+        <Badge  color='pink' shape='pill'>
+          <p>Badge</p>
+        </Badge>
+        <Badge  color='indigo' shape='square'>
+          <p>Badge</p>
+        </Badge>
       </div>
     </>
   )
