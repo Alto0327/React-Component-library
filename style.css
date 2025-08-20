@@ -126,3 +126,11 @@ button.button-danger {
     display: flex;
     gap: 12px;
 }
+
+.banner-container{
+    margin-top: 2rem;
+}
+
+.banner-text-container p:nth-of-type(2){
+     margin-top: 2px;
+}

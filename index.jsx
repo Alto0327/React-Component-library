@@ -4,6 +4,7 @@ import Menu from "./components/Menu/index"
 import Star from "./components/Star"
 import Button from './components/Button/Button'
 import Badge from './components/Badge/Badge';
+import Banner from './components/Banner/Banner';
 
 function App() {
   return (
@@ -22,6 +23,19 @@ function App() {
         <Badge  color='indigo' shape='square'>
           <p>Badge</p>
         </Badge>
+      </div>
+      <div className="banner-container">
+        <Banner status='success'>
+          <p>Congratss</p>
+        </Banner>
+        <Banner status='success'>
+        </Banner>
+        <Banner status='success'>
+          <p>Congratss</p>
+        </Banner>
+        <Banner status='success'>
+          <p>Congratss</p>
+        </Banner>
       </div>
     </>
   )
