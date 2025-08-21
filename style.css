@@ -11,7 +11,9 @@ body {
     display: flex;
     justify-content: center;
     font-family: Inter;
+    background-color: rgba(0,0,0,0.3);
 }
+
 
 .star {
     height: 30px;
@@ -150,8 +152,8 @@ button.button-danger {
 .card{
     margin: 24px;
     padding: 24px;
-    border: 1px solid black;
     border-radius: 16px;
+    background-color: white;
 }
 
 .innerCardContainer{

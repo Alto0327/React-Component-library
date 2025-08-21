@@ -9,7 +9,7 @@ import Card from './components/Cards/Card';
 
 function App() {
   return (
-    <>
+    <div className='main-container'>
       <h1>Your components go here</h1>
       <div className="badge-container">
         <Badge shape='pill' color='red'>
@@ -42,7 +42,7 @@ function App() {
         <Card/>
         <Card/>
       </div>
-    </>
+    </div>
   )
 }
 
