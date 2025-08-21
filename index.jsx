@@ -5,6 +5,7 @@ import Star from "./components/Star"
 import Button from './components/Button/Button'
 import Badge from './components/Badge/Badge';
 import Banner from './components/Banner/Banner';
+import Card from './components/Cards/Card';
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
         <Banner status='neutral'>
           <p>You got an update!!</p>
         </Banner>
+      </div>
+      <div className="cards-container">
+        <Card/>
+        <Card/>
       </div>
     </>
   )
