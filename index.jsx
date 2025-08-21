@@ -6,6 +6,9 @@ import Button from './components/Button/Button'
 import Badge from './components/Badge/Badge';
 import Banner from './components/Banner/Banner';
 import Card from './components/Cards/Card';
+import donutCake from "./components/assets/donuts-cake-svgrepo-com.svg"
+import chefMan from "./components/assets/chef-man-cap-svgrepo-com.svg"
+
 
 function App() {
   return (
@@ -41,9 +44,17 @@ function App() {
       <div className="cards-container">
         <Card 
           title="Easy Deployment"
-          text='My Reusable card component'
-        />
+          img= {donutCake}
+        >
+          <p>My Reusable card component!</p>
+
+        </Card>
         <Card/>
+        <Card
+          img={chefMan}
+        >
+          <p>we love chef man</p>
+        </Card>
       </div>
     </div>
   )
