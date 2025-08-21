@@ -28,13 +28,13 @@ function App() {
         <Banner status='success'>
           <p>Congratss</p>
         </Banner>
-        <Banner status='success'>
+        <Banner status='error'>
         </Banner>
-        <Banner status='success'>
-          <p>Congratss</p>
+        <Banner status='warning'>
+          <p>Oh no somethings gone wrong</p>
         </Banner>
-        <Banner status='success'>
-          <p>Congratss</p>
+        <Banner status='neutral'>
+          <p>You got an update!!</p>
         </Banner>
       </div>
     </>
