@@ -1,4 +1,4 @@
-export default function Card(){
+export default function Card({title = "Default Card",text ="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobort"}){
 
     return(
         <>
@@ -30,8 +30,8 @@ export default function Card(){
 </defs>
 </svg>
 {/* ICON Ends-- needs to be shorten so can be a passed prop */}
-                    <h4>Easy Deployment</h4>
-                    <p>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobort</p>
+                    <h4>{title}</h4>
+                    <p>{text}</p>
                 </div>
             </section>
 

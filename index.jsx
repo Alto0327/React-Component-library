@@ -39,7 +39,10 @@ function App() {
         </Banner>
       </div>
       <div className="cards-container">
-        <Card/>
+        <Card 
+          title="Easy Deployment"
+          text='My Reusable card component'
+        />
         <Card/>
       </div>
     </div>
