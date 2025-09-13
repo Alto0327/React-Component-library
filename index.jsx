@@ -99,16 +99,6 @@ function App() {
             delectus modi culpa! Repellat.
           </p>
         </Testimonials>
-        <Testimonials>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor qui
-            magnam fugiat molestias reprehenderit similique voluptas. Possimus
-            alias mollitia quisquam veniam neque sed fugiat cum quas, iusto
-            ducimus laborum laudantium porro dicta nihil dignissimos earum ipsa
-            adipisci natus. Illum ullam voluptate tenetur ab ipsum quidem earum
-            delectus modi culpa! Repellat.
-          </p>
-        </Testimonials>
       </section>
     </div>
   )
