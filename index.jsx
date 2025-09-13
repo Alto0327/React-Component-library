@@ -8,6 +8,7 @@ import Banner from './components/Banner/Banner';
 import Card from './components/Cards/Card';
 import donutCake from "./components/assets/donuts-cake-svgrepo-com.svg"
 import chefMan from "./components/assets/chef-man-cap-svgrepo-com.svg"
+import Testimonials from './components/Testimonials/Testimonials';
 
 
 function App() {
@@ -47,7 +48,6 @@ function App() {
           img= {donutCake}
         >
           <p>My Reusable card component!</p>
-
         </Card>
         <Card/>
         <Card
@@ -55,6 +55,9 @@ function App() {
         >
           <p>we love chef man</p>
         </Card>
+      </div>
+      <div className='testimonial-container'>
+        <Testimonials/>
       </div>
     </div>
   )
