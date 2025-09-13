@@ -169,3 +169,26 @@ button.button-danger {
     width:72px;
     height:72px;
 }
+.testimonial-container{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.WithImage{
+    background-color: #2645b9;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    gap: 20px;
+    height: 300px;
+    width: 90%;
+    padding: 50px;
+}
+
+.testimonialImg{
+    height: 400px;
+    border-radius: 8px;
+}
