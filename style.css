@@ -188,6 +188,11 @@ button.button-danger {
     padding: 50px;
 }
 
+.WithImage img {
+  width: 50%;
+  object-fit: cover;
+}
+
 .testimonialImg{
     height: 400px;
     border-radius: 8px;
@@ -236,4 +241,36 @@ button.button-danger {
     width: 50%;
 }
 
+
+@media (max-width: 768px) {
+  .WithImage {
+    flex-direction: column; /* stack items vertically */
+    text-align: center;
+    justify-content: end;
+    height: 500px;
+  }
+
+.WithImage img {
+    height:195px;              /* force a height */
+    width: 250px;
+    object-fit: cover;          /* crop instead of squish */
+    object-position: center;       /* show top half, crop bottom */
+  }
+
+  .WithOutImage {
+    flex-direction: column; /* stack items vertically */
+    text-align: center;
+    justify-content: center;
+    height: 500px;;
+  }
+
+  .grid-dot{
+    z-index: 0;
+  }
+  .withoutImageContent{
+    z-index: 99;
+    width: 100%;
+    font-size: larger;
+  }
+}
 
